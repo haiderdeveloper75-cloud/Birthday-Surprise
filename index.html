@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background Stars -->
+    <div class="stars"></div>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-text">A little surprise made specially for you ✨</p>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>My Special One ❤️</h2>
+
+            <p class="intro">
+                Today isn't just another day...
+                it's the day someone incredibly special came into this world.
+            </p>
+
+            <button class="main-btn" onclick="openSurprise()">
+                Open Your Surprise 🎁
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SURPRISE -->
+    <section class="surprise hidden" id="surprise">
+
+        <div class="section-title">
+            <p>For the most special person</p>
+            <h2>A Little Something From My Heart ❤️</h2>
+        </div>
+
+
+        <!-- GIFT -->
+        <div class="gift-container" onclick="openGift()">
+
+            <div class="gift-box">
+
+                <div class="gift-lid"></div>
+
+                <div class="gift-body"></div>
+
+                <div class="ribbon vertical"></div>
+
+                <div class="ribbon horizontal"></div>
+
+            </div>
+
+            <p id="giftText">Click the gift 🎁</p>
+
+        </div>
+
+
+        <!-- MESSAGE -->
+        <div class="love-message hidden" id="loveMessage">
+
+            <h2>For You ❤️</h2>
+
+            <p>
+                Distance may keep us in different cities,
+                but it can never make you less close to my heart.
+            </p>
+
+            <p>
+                I hope your birthday is filled with happiness,
+                beautiful moments and everything your heart wishes for.
+            </p>
+
+            <p class="signature">
+                Always yours ❤️
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+    <section class="story">
+
+        <div class="section-title">
+
+            <p>Some beautiful memories</p>
+
+            <h2>Our Little Story 📖</h2>
+
+        </div>
+
+
+        <div class="story-container">
+
+            <div class="memory">
+
+                <div class="memory-icon">💫</div>
+
+                <h3>The Beginning</h3>
+
+                <p>
+                    Every beautiful story has a beginning...
+                    and ours is one of the stories I will always keep close to my heart.
+                </p>
+
+            </div>
+
+
+            <div class="memory">
+
+                <div class="memory-icon">❤️</div>
+
+                <h3>The Moments</h3>
+
+                <p>
+                    Every conversation, every smile and every little moment
+                    became a memory that means something to me.
+                </p>
+
+            </div>
+
+
+            <div class="memory">
+
+                <div class="memory-icon">🌙</div>
+
+                <h3>The Distance</h3>
+
+                <p>
+                    Even when you're far away,
+                    somehow you still manage to stay close to my heart.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LETTER -->
+    <section class="letter-section">
+
+        <div class="section-title">
+
+            <p>Something I want you to know</p>
+
+            <h2>A Letter For You 💌</h2>
+
+        </div>
+
+
+        <div class="envelope" onclick="openLetter()">
+
+            <div class="envelope-top"></div>
+
+            <div class="letter-paper" id="letter">
+
+                <h2>My Dear ❤️</h2>
+
+                <p>
+                    On your birthday, I just want to remind you
+                    how special you are to me.
+                </p>
+
+                <p>
+                    I may not be beside you today,
+                    but my prayers, my wishes and my heart
+                    are always with you.
+                </p>
+
+                <p>
+                    May Allah bless you with happiness,
+                    peace and a beautiful life.
+                </p>
+
+                <p>
+                    And InshaAllah,
+                    one day we won't have to celebrate
+                    special days from different cities anymore.
+                </p>
+
+                <p class="signature">
+                    Happy Birthday ❤️
+                </p>
+
+            </div>
+
+        </div>
+
+        <p class="click-text">Click the envelope 💌</p>
+
+    </section>
+
+
+    <!-- CAKE -->
+    <section class="cake-section">
+
+        <div class="section-title">
+
+            <p>Make a wish...</p>
+
+            <h2>It's Your Special Day 🎂</h2>
+
+        </div>
+
+
+        <div class="cake">
+
+            <div class="candle candle1">
+                <span class="flame"></span>
+            </div>
+
+            <div class="candle candle2">
+                <span class="flame"></span>
+            </div>
+
+            <div class="candle candle3">
+                <span class="flame"></span>
+            </div>
+
+            <div class="cake-top"></div>
+
+            <div class="cake-middle"></div>
+
+            <div class="cake-bottom"></div>
+
+        </div>
+
+
+        <button class="wish-btn" onclick="blowCandles()">
+            Make a Wish ✨
+        </button>
+
+        <p id="wishMessage"></p>
+
+    </section>
+
+
+    <!-- FINAL -->
+    <section class="final-section">
+
+        <div class="final-content">
+
+            <p class="small-text">
+                And finally...
+            </p>
+
+            <h1>Happy Birthday</h1>
+
+            <h2>My Future Wife ❤️</h2>
+
+            <p>
+                No matter how many miles are between us,
+                you will always have a special place in my heart.
+            </p>
+
+            <div class="heart">❤️</div>
+
+            <p class="footer-text">
+                Made with love, just for you.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
